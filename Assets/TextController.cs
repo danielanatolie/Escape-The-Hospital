@@ -100,8 +100,6 @@ public class TextController : MonoBehaviour {
 		text.text = "You are now in the window and see the letter F on the ground.";
 		if(Input.GetKeyDown(KeyCode.F)) {
 			myState = States.freedom;
-		} else {
-			myState = States.death;
 		}
 	}
 	
